@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-  
-  cout << "Ini jawaban soal nomer 1.";
+
+  cout << "Ini jawaban soal nomer 2.";
 
   return 0;
 }
