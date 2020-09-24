@@ -3,17 +3,17 @@ using namespace std;
 
 int main(){
   // Variable
-  float celcius, farenheit;
+  float celcius, fahrenheit;
 
   // Input
   cout << "The temperature in Celcius: ";
   cin >> celcius;
   
   // Formula
-  farenheit = (celcius * 9.0) / 5.0 + 32;
+  fahrenheit = (celcius * 9.0) / 5.0 + 32;
 
   // Output
-  cout << "The temperatur in Farenheit: " << farenheit << endl;
+  cout << "The temperatur in Farenheit: " << fahrenheit << endl;
 
   return 0;
 }

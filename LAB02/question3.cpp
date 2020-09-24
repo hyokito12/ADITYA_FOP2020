@@ -1,17 +1,18 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int main(){
   // Variable Declaration
-  float radius, pi = 3.14, surfaceArea, volume;
+  float radius, pi = M_PI, surfaceArea, volume;
 
   // Input Variable
   cout << "Input the radius of sphere: ";
   cin >> radius;
   
   // Volume and Surface Area formula
-  volume = (4/3) * pi * radius * radius * radius;
-  surfaceArea = 4 * pi * radius * radius;
+  volume = (4/3) * pi * pow(radius, 3);
+  surfaceArea = 4 * pi * pow(radius, 2);
 
   // Output
   cout << "Sphere's volume: " << volume << endl;
