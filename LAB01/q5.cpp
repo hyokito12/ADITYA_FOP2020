@@ -1,25 +1,16 @@
-#include <iostream>
-
+#include<iostream>
 using namespace std;
 
-int main() {
-  int x;
+int main(){
+  // Variable declaration
+  int time1 = 14, time2 = 21;
+  int formattedTime1, formattedTime2;
 
-  //Step 1 Input Hour
-  cout<<"Input hour : ";
-  cin>>x;
+  // Do formatting
+  formattedTime1 = time1 % 12;
+  formattedTime2 = time2 % 12;
 
-  //Step 2 The formula
-  if ((x>=0)&&(x<=12)){
-    cout<<"Now is "<<x<<" AM";
-  }
-
-  else if ((x>=13)&&(x<=24)){
-    cout<<"Now is "<<x-12<<" PM";
-  }
-
-  else{
-    cout<<"You're Input Wrong Number";
-  }
-  return 0;
+  // Display output
+  cout << time1 << ":00 is equal to " << formattedTime1 << ":00 PM\n";
+  cout << time2 << ":00 is equal to " << formattedTime2 << ":00 PM\n";
 }
