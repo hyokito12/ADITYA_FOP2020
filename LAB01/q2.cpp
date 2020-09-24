@@ -1,10 +1,9 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main(){
-  
-  cout << pow(8,3);
+
+  cout << "Ini jawaban soal nomer 2.";
 
   return 0;
 }
