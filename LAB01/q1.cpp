@@ -1,14 +1,24 @@
-#include <iostream>
-#include <cmath>
+#include<iostream>
 using namespace std;
 
 int main(){
-  
-<<<<<<< HEAD
-  cout << pow(8,3);
-=======
-  cout << "Ini jawaban soal nomer 1.";
->>>>>>> 9e5b1768527da130b5f819bef51920f45be01e97
+  // Variable declaration
+  int num1 = 12, num2 = 5;
 
-  return 0;
+  // Display output
+  cout  << num1 << " + " << num2 << " = "
+        << num1 + num2 << endl
+
+        << num1 << " - " << num2 << " = "
+        << num1 - num2 << endl
+
+        << num1 << " x " << num2 << " = "
+        << num1 * num2 << endl
+
+        << num1 << " : " << num2 << " = "
+        << num1 / num2 << endl
+        
+        << num1 << " % " << num2 << " = "
+        << num1 % num2 << endl;
+  
 }
