@@ -13,7 +13,7 @@ int main()
   // Check num and display output
   if (num % 2 == 0)
   {
-    cout << "Your number is even!\n";
+    cout << "Your number is even !\n";
   }
   else
   {
